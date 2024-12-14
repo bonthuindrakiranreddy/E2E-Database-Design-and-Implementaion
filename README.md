@@ -20,20 +20,18 @@ The objective of this project was to create an ERP database capable of managing:
 
 ## Business Rules
 Rule	Description	Related Entities
-B1	Company has departments, warehouses, and production lines.	Departments, Warehouses, Production lines
-B2	Company designs and produces products.	Products
-B3	Each department, warehouse, and production line has multiple employees.	Departments, Warehouses, Production lines, Employees
-B4	Each employee works in only one department, warehouse, or production line.	Employees, Departments, Warehouses, Production lines
-B5	Some departments design products (at least one).	Departments, Products
-B6	Different departments cannot work on the same product.	Departments, Products
-B7	Each product must be produced by one specific production line.	Products, Production lines
-B8	Each production line can produce only one product (or none).	Production lines, Products
-B9	Raw materials are supplied by any number of warehouses (supplied by vendors).	Raw materials, Warehouses, Vendors
-B10	Raw materials may also be directly supplied by vendors.	Raw materials, Vendors
-B11	Vendors can supply any number of materials.	Vendors, Raw materials
-B12	Vendors submit invoices if they receive orders.	Vendors, Invoices
-B13	Invoices must be processed by the accounting department.	Invoices, Accounting department
-![image](https://github.com/user-attachments/assets/78b0536f-9eed-4efa-8527-7dc43655dd88)
+- **Business Rules1:**	Company has departments, warehouses, and production lines.	Departments, Warehouses, Production lines
+- **Business Rules2:**	Company designs and produces products.	Products
+- **Business Rules3:**	Each department, warehouse, and production line has multiple employees.	Departments, Warehouses, Production lines, Employees
+- **Business Rules4:**	Each employee works in only one department, warehouse, or production line.	Employees, Departments, Warehouses, Production lines
+- **Business Rules5:**	Some departments design products (at least one).	Departments, Products
+- **Business Rules6:**	Each product must be produced by one specific production line.	Products, Production lines
+- **Business Rules8:**	Each production line can produce only one product (or none).	Production lines, Products
+- **Business Rules9:**	Raw materials are supplied by any number of warehouses (supplied by vendors).	Raw materials, Warehouses, Vendors
+- **Business Rules10:**	Raw materials may also be directly supplied by vendors.	Raw materials, Vendors
+- **Business Rules11:**	Vendors can supply any number of materials.	Vendors, Raw materials
+- **Business Rules12:**	Vendors submit invoices if they receive orders.	Vendors, Invoices
+- **Business Rules13:**	Invoices must be processed by the accounting department.	Invoices, Accounting department
 
 ## Project Timeline
 Phase	                          Duration	  Milestones
